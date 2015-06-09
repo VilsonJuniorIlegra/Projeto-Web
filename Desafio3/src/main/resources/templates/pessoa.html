@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Getting Started: Handing Form Submission</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<h1>Desafio 3 - Cadastro de Pessoas</h1>
+	<a href="/listar-pessoa">Listar Pessoas</a>
+    <form action="/salvar-pessoa" method="post">
+    	<p>Idade: <input type="text" name="idade" /></p>
+        <p>Nome: <input type="text" name="nome" /></p>
+        <p><input type="submit" value="Salvar"/></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Desafio 3 - Projeto Web</title>
+</head>
+<body>
+	<h1>Form</h1>
+    <form action="#" th:action="@{/pessoaArrayDao}" th:object="${pessoaArrayDao}" method="post">
+    	<p> <input type="text" th:field="*{nome}" /></p>
+        <p> <input type="text" th:field="*{idade}" /></p>
+        
+    </form>
+</body>
+</html>
